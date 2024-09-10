@@ -1,4 +1,7 @@
-func main() {
+{
+
+
+  func main() {
 	r := gin.New()
 
 	rl := NewRateLimiter()
@@ -11,4 +14,9 @@ func main() {
 	})
 
 	r.Run() // Listen and serve on 0.0.0.0:8080
+ }
+
+
+
+
 }
