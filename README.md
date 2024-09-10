@@ -1,7 +1,8 @@
-{
-
-
-  func main() {
+# Usecases
+## rate limiter in golang, on gin extension
+- example
+```sh
+func main() {
 	r := gin.New()
 
 	rl := NewRateLimiter()
@@ -14,9 +15,6 @@
 	})
 
 	r.Run() // Listen and serve on 0.0.0.0:8080
- }
-
-
-
-
 }
+
+```
